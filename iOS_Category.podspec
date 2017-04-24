@@ -1,25 +1,21 @@
-#
-#  Be sure to run `pod spec lint iOS_Category.podspec' to ensure this is a
-#  valid spec and to remove all comments including this before submitting the spec.
-#
-#  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
-#  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
-#
-
 Pod::Spec.new do |s|
   s.name         = "iOS_Category"
   s.version      = "0.0.1"
-  s.summary      = "A short description of iOS_Category."
+  s.summary      = "all kinds of categories for iOS develop"
   s.description  = <<-DESC
+                      this project provide all kinds of categories for iOS developer 
                    DESC
-  s.homepage     = "http://EXAMPLE/iOS_Category"
-  s.license      = "MIT (example)"
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-  s.author             = { "Djlink-iOS-席亚楠" => "xiyn@djlink.cn" }
-  s.platform     = :ios
-  s.source       = { :git => "http://EXAMPLE/iOS_Category.git", :tag => "#{s.version}" }
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.homepage     = "https://github.com/XiynQAQ/cocoPopdpecDemo/blob/master/iOS_Category.podspec"
+  s.license      = "MIT"
+  s.license      = { :type => "MIT"， :file => "LICENSE" }
+  s.author             = { "席亚楠" => "252962355@qq.com" }
+  s.platform     = :ios , @"8.0"
+  s.source       = { :git => "https://github.com/yongqianvip/iOS_Category.git"， :tag => "0.0.1" }
+  s.source_files  = "Classes"， "iOS_Category/Classes/**/*.{h，m}"
   s.exclude_files = "Classes/Exclude"
-  s.public_header_files = "Classes/**/*.h"
+  # s.framework  = "SomeFramework" #可以指定你需要的framework 由于我这里是一个简单的demo，所以这里没有指定
+  # s.frameworks = "SomeFramework", "AnotherFramework"
+  # s.library   = "iconv"
+  # s.libraries = "iconv", "xml2"
   s.requires_arc = true
 end
