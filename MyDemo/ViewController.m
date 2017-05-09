@@ -18,6 +18,7 @@
     [super viewDidLoad];
     NSLog(@"hahahahwwwwwwwww");
     NSLog(@"develope");
+    NSLog(@"保存一下子吧");
     // Do any additional setup after loading the view, typically from a nib.
     
 }
